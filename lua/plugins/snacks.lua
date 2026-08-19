@@ -11,6 +11,19 @@ return {
           backdrop = false,
           border = "rounded",
         },
+        sources = {
+          files = {
+            -- hidden = true,
+            -- ignored = true,
+          },
+        },
+        grep = {
+          -- hidden = true,
+        },
+        explorer = {
+          -- hidden = true,
+          -- ignored = true,
+        },
       },
       actions = {
         confirm = function(picker, item, action)
